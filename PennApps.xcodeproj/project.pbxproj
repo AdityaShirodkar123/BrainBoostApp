@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		835AD70C27E651200034795A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 835AD70B27E651200034795A /* FirebaseFirestore */; };
+		835AD70E27E651740034795A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AD70D27E651740034795A /* ViewModel.swift */; };
+		835AD71127E651990034795A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AD71027E651990034795A /* User.swift */; };
+		835AD71327E651A40034795A /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AD71227E651A40034795A /* Journal.swift */; };
+		835AD71527E651E30034795A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 835AD71427E651E30034795A /* GoogleService-Info.plist */; };
+		835AD71727E689FC0034795A /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AD71627E689FB0034795A /* SignUp.swift */; };
+		835AD71927E6A0440034795A /* PastJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AD71827E6A0440034795A /* PastJournal.swift */; };
+		83FD236627E6CFC70014BB63 /* pastDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD236527E6CFC60014BB63 /* pastDetail.swift */; };
+		83FD236827E6DD270014BB63 /* resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FD236727E6DD270014BB63 /* resources.swift */; };
+		E277D4C127E551DF004A51C7 /* PennAppsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E277D4C027E551DF004A51C7 /* PennAppsApp.swift */; };
+		E277D4C327E551DF004A51C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E277D4C227E551DF004A51C7 /* ContentView.swift */; };
+		E277D4C527E551E1004A51C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E277D4C427E551E1004A51C7 /* Assets.xcassets */; };
+		E277D4C827E551E1004A51C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E277D4C727E551E1004A51C7 /* Preview Assets.xcassets */; };
+		E277D4D227E551E1004A51C7 /* PennAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E277D4D127E551E1004A51C7 /* PennAppsTests.swift */; };
+		E277D4DC27E551E1004A51C7 /* PennAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E277D4DB27E551E1004A51C7 /* PennAppsUITests.swift */; };
+		E277D4DE27E551E1004A51C7 /* PennAppsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E277D4DD27E551E1004A51C7 /* PennAppsUITestsLaunchTests.swift */; };
+		E277D4F127E55B87004A51C7 /* caveat in Resources */ = {isa = PBXBuildFile; fileRef = E277D4EF27E55B87004A51C7 /* caveat */; };
+		E277D4F227E55B87004A51C7 /* roboto in Resources */ = {isa = PBXBuildFile; fileRef = E277D4F027E55B87004A51C7 /* roboto */; };
+		E277D4F527E55E4A004A51C7 /* caveat-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E277D4F427E55E17004A51C7 /* caveat-bold.ttf */; };
+		E277D4F827E56C79004A51C7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E277D4F727E56C79004A51C7 /* Home.swift */; };
+		E277D4FA27E572C2004A51C7 /* newJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E277D4F927E572C2004A51C7 /* newJournal.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E277D4CE27E551E1004A51C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E277D4B527E551DF004A51C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E277D4BC27E551DF004A51C7;
+			remoteInfo = PennApps;
+		};
+		E277D4D827E551E1004A51C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E277D4B527E551DF004A51C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E277D4BC27E551DF004A51C7;
+			remoteInfo = PennApps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		835AD70D27E651740034795A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		835AD71027E651990034795A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		835AD71227E651A40034795A /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		835AD71427E651E30034795A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		835AD71627E689FB0034795A /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		835AD71827E6A0440034795A /* PastJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastJournal.swift; sourceTree = "<group>"; };
+		83FD236527E6CFC60014BB63 /* pastDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pastDetail.swift; sourceTree = "<group>"; };
+		83FD236727E6DD270014BB63 /* resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resources.swift; sourceTree = "<group>"; };
+		E277D4BD27E551DF004A51C7 /* PennApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E277D4C027E551DF004A51C7 /* PennAppsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennAppsApp.swift; sourceTree = "<group>"; };
+		E277D4C227E551DF004A51C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E277D4C427E551E1004A51C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E277D4C727E551E1004A51C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E277D4CD27E551E1004A51C7 /* PennAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E277D4D127E551E1004A51C7 /* PennAppsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennAppsTests.swift; sourceTree = "<group>"; };
+		E277D4D727E551E1004A51C7 /* PennAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E277D4DB27E551E1004A51C7 /* PennAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennAppsUITests.swift; sourceTree = "<group>"; };
+		E277D4DD27E551E1004A51C7 /* PennAppsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennAppsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E277D4EF27E55B87004A51C7 /* caveat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = caveat; sourceTree = "<group>"; };
+		E277D4F027E55B87004A51C7 /* roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = roboto; sourceTree = "<group>"; };
+		E277D4F327E55C3C004A51C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E277D4F427E55E17004A51C7 /* caveat-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "caveat-bold.ttf"; path = "PennApps/Project Files/caveat-bold.ttf"; sourceTree = SOURCE_ROOT; };
+		E277D4F727E56C79004A51C7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		E277D4F927E572C2004A51C7 /* newJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newJournal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E277D4BA27E551DF004A51C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835AD70C27E651200034795A /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E277D4CA27E551E1004A51C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E277D4D427E551E1004A51C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		835AD70F27E6517F0034795A /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				835AD70D27E651740034795A /* ViewModel.swift */,
+				835AD71027E651990034795A /* User.swift */,
+				835AD71227E651A40034795A /* Journal.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		E277D4B427E551DF004A51C7 = {
+			isa = PBXGroup;
+			children = (
+				E277D4BF27E551DF004A51C7 /* PennApps */,
+				E277D4D027E551E1004A51C7 /* PennAppsTests */,
+				E277D4DA27E551E1004A51C7 /* PennAppsUITests */,
+				E277D4BE27E551DF004A51C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E277D4BE27E551DF004A51C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E277D4BD27E551DF004A51C7 /* PennApps.app */,
+				E277D4CD27E551E1004A51C7 /* PennAppsTests.xctest */,
+				E277D4D727E551E1004A51C7 /* PennAppsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E277D4BF27E551DF004A51C7 /* PennApps */ = {
+			isa = PBXGroup;
+			children = (
+				835AD70F27E6517F0034795A /* New Group */,
+				E277D4F327E55C3C004A51C7 /* Info.plist */,
+				E277D4EA27E55AF5004A51C7 /* Project Files */,
+				E277D4C027E551DF004A51C7 /* PennAppsApp.swift */,
+				E277D4C227E551DF004A51C7 /* ContentView.swift */,
+				83FD236727E6DD270014BB63 /* resources.swift */,
+				E277D4F727E56C79004A51C7 /* Home.swift */,
+				835AD71827E6A0440034795A /* PastJournal.swift */,
+				83FD236527E6CFC60014BB63 /* pastDetail.swift */,
+				835AD71627E689FB0034795A /* SignUp.swift */,
+				E277D4F927E572C2004A51C7 /* newJournal.swift */,
+				E277D4C427E551E1004A51C7 /* Assets.xcassets */,
+				835AD71427E651E30034795A /* GoogleService-Info.plist */,
+				E277D4C627E551E1004A51C7 /* Preview Content */,
+			);
+			path = PennApps;
+			sourceTree = "<group>";
+		};
+		E277D4C627E551E1004A51C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E277D4C727E551E1004A51C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E277D4D027E551E1004A51C7 /* PennAppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E277D4D127E551E1004A51C7 /* PennAppsTests.swift */,
+			);
+			path = PennAppsTests;
+			sourceTree = "<group>";
+		};
+		E277D4DA27E551E1004A51C7 /* PennAppsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E277D4DB27E551E1004A51C7 /* PennAppsUITests.swift */,
+				E277D4DD27E551E1004A51C7 /* PennAppsUITestsLaunchTests.swift */,
+			);
+			path = PennAppsUITests;
+			sourceTree = "<group>";
+		};
+		E277D4EA27E55AF5004A51C7 /* Project Files */ = {
+			isa = PBXGroup;
+			children = (
+				E277D4F427E55E17004A51C7 /* caveat-bold.ttf */,
+				E277D4EF27E55B87004A51C7 /* caveat */,
+				E277D4F027E55B87004A51C7 /* roboto */,
+			);
+			path = "Project Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E277D4BC27E551DF004A51C7 /* PennApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E277D4E127E551E1004A51C7 /* Build configuration list for PBXNativeTarget "PennApps" */;
+			buildPhases = (
+				E277D4B927E551DF004A51C7 /* Sources */,
+				E277D4BA27E551DF004A51C7 /* Frameworks */,
+				E277D4BB27E551DF004A51C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PennApps;
+			packageProductDependencies = (
+				835AD70B27E651200034795A /* FirebaseFirestore */,
+			);
+			productName = PennApps;
+			productReference = E277D4BD27E551DF004A51C7 /* PennApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E277D4CC27E551E1004A51C7 /* PennAppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E277D4E427E551E1004A51C7 /* Build configuration list for PBXNativeTarget "PennAppsTests" */;
+			buildPhases = (
+				E277D4C927E551E1004A51C7 /* Sources */,
+				E277D4CA27E551E1004A51C7 /* Frameworks */,
+				E277D4CB27E551E1004A51C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E277D4CF27E551E1004A51C7 /* PBXTargetDependency */,
+			);
+			name = PennAppsTests;
+			productName = PennAppsTests;
+			productReference = E277D4CD27E551E1004A51C7 /* PennAppsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E277D4D627E551E1004A51C7 /* PennAppsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E277D4E727E551E1004A51C7 /* Build configuration list for PBXNativeTarget "PennAppsUITests" */;
+			buildPhases = (
+				E277D4D327E551E1004A51C7 /* Sources */,
+				E277D4D427E551E1004A51C7 /* Frameworks */,
+				E277D4D527E551E1004A51C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E277D4D927E551E1004A51C7 /* PBXTargetDependency */,
+			);
+			name = PennAppsUITests;
+			productName = PennAppsUITests;
+			productReference = E277D4D727E551E1004A51C7 /* PennAppsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E277D4B527E551DF004A51C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					E277D4BC27E551DF004A51C7 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					E277D4CC27E551E1004A51C7 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = E277D4BC27E551DF004A51C7;
+					};
+					E277D4D627E551E1004A51C7 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = E277D4BC27E551DF004A51C7;
+					};
+				};
+			};
+			buildConfigurationList = E277D4B827E551DF004A51C7 /* Build configuration list for PBXProject "PennApps" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E277D4B427E551DF004A51C7;
+			packageReferences = (
+				835AD70A27E6511F0034795A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = E277D4BE27E551DF004A51C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E277D4BC27E551DF004A51C7 /* PennApps */,
+				E277D4CC27E551E1004A51C7 /* PennAppsTests */,
+				E277D4D627E551E1004A51C7 /* PennAppsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E277D4BB27E551DF004A51C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E277D4F127E55B87004A51C7 /* caveat in Resources */,
+				E277D4C827E551E1004A51C7 /* Preview Assets.xcassets in Resources */,
+				E277D4F527E55E4A004A51C7 /* caveat-bold.ttf in Resources */,
+				E277D4C527E551E1004A51C7 /* Assets.xcassets in Resources */,
+				E277D4F227E55B87004A51C7 /* roboto in Resources */,
+				835AD71527E651E30034795A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E277D4CB27E551E1004A51C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E277D4D527E551E1004A51C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E277D4B927E551DF004A51C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FD236627E6CFC70014BB63 /* pastDetail.swift in Sources */,
+				835AD71927E6A0440034795A /* PastJournal.swift in Sources */,
+				835AD70E27E651740034795A /* ViewModel.swift in Sources */,
+				E277D4FA27E572C2004A51C7 /* newJournal.swift in Sources */,
+				835AD71127E651990034795A /* User.swift in Sources */,
+				83FD236827E6DD270014BB63 /* resources.swift in Sources */,
+				E277D4C327E551DF004A51C7 /* ContentView.swift in Sources */,
+				E277D4F827E56C79004A51C7 /* Home.swift in Sources */,
+				835AD71727E689FC0034795A /* SignUp.swift in Sources */,
+				835AD71327E651A40034795A /* Journal.swift in Sources */,
+				E277D4C127E551DF004A51C7 /* PennAppsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E277D4C927E551E1004A51C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E277D4D227E551E1004A51C7 /* PennAppsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E277D4D327E551E1004A51C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E277D4DE27E551E1004A51C7 /* PennAppsUITestsLaunchTests.swift in Sources */,
+				E277D4DC27E551E1004A51C7 /* PennAppsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E277D4CF27E551E1004A51C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E277D4BC27E551DF004A51C7 /* PennApps */;
+			targetProxy = E277D4CE27E551E1004A51C7 /* PBXContainerItemProxy */;
+		};
+		E277D4D927E551E1004A51C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E277D4BC27E551DF004A51C7 /* PennApps */;
+			targetProxy = E277D4D827E551E1004A51C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E277D4DF27E551E1004A51C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E277D4E027E551E1004A51C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E277D4E227E551E1004A51C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PennApps/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PennApps/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = annika.PennApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E277D4E327E551E1004A51C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PennApps/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PennApps/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = annika.PennApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E277D4E527E551E1004A51C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = annika.PennAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennApps.app/PennApps";
+			};
+			name = Debug;
+		};
+		E277D4E627E551E1004A51C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = annika.PennAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennApps.app/PennApps";
+			};
+			name = Release;
+		};
+		E277D4E827E551E1004A51C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = annika.PennAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PennApps;
+			};
+			name = Debug;
+		};
+		E277D4E927E551E1004A51C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = annika.PennAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PennApps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E277D4B827E551DF004A51C7 /* Build configuration list for PBXProject "PennApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E277D4DF27E551E1004A51C7 /* Debug */,
+				E277D4E027E551E1004A51C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E277D4E127E551E1004A51C7 /* Build configuration list for PBXNativeTarget "PennApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E277D4E227E551E1004A51C7 /* Debug */,
+				E277D4E327E551E1004A51C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E277D4E427E551E1004A51C7 /* Build configuration list for PBXNativeTarget "PennAppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E277D4E527E551E1004A51C7 /* Debug */,
+				E277D4E627E551E1004A51C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E277D4E727E551E1004A51C7 /* Build configuration list for PBXNativeTarget "PennAppsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E277D4E827E551E1004A51C7 /* Debug */,
+				E277D4E927E551E1004A51C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		835AD70A27E6511F0034795A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		835AD70B27E651200034795A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 835AD70A27E6511F0034795A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E277D4B527E551DF004A51C7 /* Project object */;
+}
